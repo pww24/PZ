@@ -1,6 +1,6 @@
 ﻿namespace PZ
 {
-    partial class Form1
+    partial class OknoSerwera
     {
         /// <summary>
         /// Wymagana zmienna projektanta.

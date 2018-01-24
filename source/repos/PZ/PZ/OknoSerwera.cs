@@ -13,11 +13,11 @@ using System.IO;
 
 namespace PZ
 {
-    public partial class Form1 : Form
+    public partial class OknoSerwera : Form
     {
         private TcpListener serwer;
 
-        public Form1()
+        public OknoSerwera()
         {
             InitializeComponent();
         }
