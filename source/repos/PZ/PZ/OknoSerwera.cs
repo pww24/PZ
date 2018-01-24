@@ -49,6 +49,7 @@ namespace PZ
                 serwer.Start();
                 listBox1.Items.Add("komunikat wysyłany...");
                 listBox1.Update();
+                System.IO.File.AppendAllText("logs.txt", System.DateTime.Now + " Host= " + adresIP + ":" + port + "  " + textBox2.Text + Environment.NewLine); //logowanie komunikatów do pliku
 
                 button1.Enabled = false;
                 button2.Enabled = true;
@@ -67,6 +68,8 @@ namespace PZ
                 listBox1.Items.Add("Komunikat został wysłany.");
                 listBox1.Update();
                 serwer.Stop();
+
+
             }
             catch
             {
