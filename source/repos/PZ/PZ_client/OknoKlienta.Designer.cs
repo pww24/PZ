@@ -1,4 +1,4 @@
-﻿namespace PZ_client
+﻿namespace PZ_klient
 {
     partial class OknoKlienta
     {

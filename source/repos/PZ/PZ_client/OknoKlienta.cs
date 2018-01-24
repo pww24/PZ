@@ -11,7 +11,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.IO;
 
-namespace PZ_client
+namespace PZ_klient
 {
     public partial class OknoKlienta : Form
     {
