@@ -1,5 +1,6 @@
 
 # Komunikator TCP (serwer-klient)
+Aplikacja pozwalająca przesłać komunikat tekstowy lub plik z serwera do klienta.
 
 ![Screenshot](screens/serwer.jpg) ![Screenshot](screens/klient.png) 
 
@@ -29,3 +30,5 @@ Obie aplikacje stworzone zostały z użyciem bibliotek Windows.Forms, .Net, .Net
 - dodać listę połączonych klientów i zarządzanie nimi
 - dodać możliwość zablokowania klienta na danym IP/porcie
 - rozbudować GUI
+
+Źródła informacji, z których korzystałem: MSDN, www.codeproject.com.
