@@ -84,7 +84,7 @@ namespace PZ_klient
                     Fs.Close();
                 }
 
-                listBox1.Items.Add("Plik " + nazwaPliku + " został zapisany.);
+                listBox1.Items.Add("Plik " + nazwaPliku + " został poprawnie zapisany.");
                 listBox1.Update();
                 ns.Close();
                 klient.Close();

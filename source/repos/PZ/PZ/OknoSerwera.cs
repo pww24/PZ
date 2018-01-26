@@ -153,5 +153,10 @@ namespace PZ
                 Console.WriteLine(ex.Message);
             }
         }
+
+        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
